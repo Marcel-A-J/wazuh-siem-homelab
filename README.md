@@ -21,7 +21,7 @@ This project showcases practical engineering skills in **virtualization, cross-a
   - **Stack:** Wazuh Manager (Rule Engine), Wazuh Indexer (OpenSearch), Wazuh Dashboard (HTTPS / Port 443)
 - **Monitored Endpoint (Agent 001):** Raspberry Pi 3B+ (ARM64 / Debian GNU/Linux 13, IP: `192.168.178.37`)
 
-![Proxmox VM Overview](Wazuh/01_proxmox_vm_running.png)
+![Proxmox VM Overview](Wazuh/00_proxmox_vm_running.png)
 <img width="1657" height="1033" alt="00_proxmox_vm_running" src="https://github.com/user-attachments/assets/0963eaf4-3801-4cc5-9562-b5242953f261" />
 
 ---
