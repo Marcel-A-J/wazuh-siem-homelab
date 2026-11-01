@@ -30,7 +30,7 @@ The agent was deployed to a remote physical ARM64 Linux node:
 - Configured via the deployment assistant using the **`DEB aarch64`** package architecture.
 - Enrolled with the central Wazuh Manager at `192.168.178.57` over mutual TLS encryption.
 
-![Wazuh Agent Deployment](wazuh/01_wazuh_agent_deployment.png)
+![Wazuh Agent Deployment](Wazuh/01_wazuh_agent_deployment.png)
 
 Once connected, bidirectional telemetry was established, feeding system inventory, live events, and compliance scans into the manager:
 
