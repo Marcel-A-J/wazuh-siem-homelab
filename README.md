@@ -1,3 +1,4 @@
+<img width="1657" height="1033" alt="00_proxmox_vm_running" src="https://github.com/user-attachments/assets/2a2f815f-32b1-4cab-a571-aa2933b8724a" />
 # Enterprise SIEM Deployment, Threat Detection & Compliance Lab (Wazuh on Proxmox VE)
 
 ![Proxmox](https://img.shields.io/badge/Proxmox_VE_9-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
@@ -21,6 +22,7 @@ This project showcases practical engineering skills in **virtualization, cross-a
 - **Monitored Endpoint (Agent 001):** Raspberry Pi 3B+ (ARM64 / Debian GNU/Linux 13, IP: `192.168.178.37`)
 
 ![Proxmox VM Overview](screenshots/01_proxmox_vm_running.png)
+<img width="1657" height="1033" alt="00_proxmox_vm_running" src="https://github.com/user-attachments/assets/0963eaf4-3801-4cc5-9562-b5242953f261" />
 
 ---
 
