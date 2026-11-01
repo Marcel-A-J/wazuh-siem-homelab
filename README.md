@@ -34,7 +34,7 @@ The agent was deployed to a remote physical ARM64 Linux node:
 
 Once connected, bidirectional telemetry was established, feeding system inventory, live events, and compliance scans into the manager:
 
-![Agent Telemetry & Vulnerability Overview](screenshots/03_wazuh_agent_overview.png)
+![Agent Telemetry & Vulnerability Overview](Wazuh/02_wazuh_agent_active.png)
 
 ---
 
@@ -48,14 +48,14 @@ To evaluate the detection and correlation pipeline, an authentication attack was
 ### Correlation & Tactic Mapping
 The Wazuh Agent intercepted auth failures from `/var/log/auth.log` and forwarded events to the analysis engine. The alerts were automatically mapped against the **MITRE ATT&CK Enterprise Matrix**:
 
-![MITRE ATT&CK Dashboard](screenshots/04_wazuh_mitre_dashboard.png)
+![MITRE ATT&CK Dashboard](Wazuh/03_wazuh_security_dashboard_ssh.png)
 
 - **Tactics Identified:**
   - `Credential Access` (17 events)
   - `Lateral Movement` (10 events)
   - `Privilege Escalation` & `Defense Evasion` (Sudo caching analysis)
 
-![MITRE ATT&CK Technique Breakdown](screenshots/05_wazuh_mitre_techniques.png)
+![MITRE ATT&CK Technique Breakdown](Wazuh/03_wazuh_security_Framework_ssh.png)
 
 - **Specific Techniques Triggered:**
   - **T1110.001:** *Brute Force: Password Guessing* (15 occurrences)
@@ -72,7 +72,7 @@ Beyond reactive alert monitoring, proactive system posture was evaluated using t
 - Assessed **207 security controls** (e.g., partition mount parameters `nodev`, `nosuid`, `noexec`, and system daemon hardening).
 - Real-time audit score: **42% compliance** with detailed remediation guidance for failed checks.
 
-![CIS Benchmark Audit Results](screenshots/06_wazuh_sca_cis_benchmark.png)
+![CIS Benchmark Audit Results](Wazuh/04_wazuh_vulnerability_sca.png)
 
 ---
 
