@@ -6,13 +6,13 @@
 ![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi_ARM64-C51A4A?style=for-the-badge&logo=raspberry-pi&logoColor=white)
 ![MITRE ATT&CK](https://img.shields.io/badge/MITRE_ATT%26CK-Mapped-red?style=for-the-badge)
 
-An end-to-end implementation of an **Enterprise Security Information and Event Management (SIEM)** and **XDR** environment using **Wazuh 4.14** and **OpenSearch**, deployed as a dedicated KVM Virtual Machine on a Bare-Metal Proxmox Hypervisor.
+An end-to-end implementation of an **Security Information and Event Management (SIEM)** and **XDR** environment using **Wazuh 4.14** and **OpenSearch**, deployed as a dedicated KVM Virtual Machine on a Bare-Metal Proxmox Hypervisor.
 
-This project showcases practical engineering skills in **virtualization, cross-architecture log shipping (x86_64 to aarch64), real-time threat detection mapped to the MITRE ATT&CK framework, and automated compliance auditing using CIS Benchmarks**.
+This project showcases practical skills in **virtualization, cross-architecture log shipping (x86_64 to aarch64), real-time threat detection mapped to the MITRE ATT&CK framework, and automated compliance auditing using CIS Benchmarks**.
 
 ---
 
-## 🏗️ Architecture & Hypervisor Provisioning
+## Architecture & Hypervisor Provisioning
 
 - **Hypervisor:** Proxmox VE 9.2.2 running on dedicated hardware with native battery redundancy (integrated UPS)
 - **SIEM Appliance (KVM VM 100):** Ubuntu Server 24.04 LTS
@@ -24,7 +24,7 @@ This project showcases practical engineering skills in **virtualization, cross-a
 
 ---
 
-## 🚀 Cross-Architecture Agent Enrollment (ARM64)
+## Cross-Architecture Agent Enrollment (ARM64)
 
 The agent was deployed to a remote physical ARM64 Linux node:
 - Configured via the deployment assistant using the **`DEB aarch64`** package architecture.
